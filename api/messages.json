@@ -1,0 +1,68 @@
+[  
+   {  
+      "_id":"543109aa71d816200f2a0d55",
+      "contact":{  
+         "picture":"styles/img/avatars/5.png",
+         "email":"sadi.orlaf@smartadmin.com",
+         "name":"Carting Appointment"
+      },
+      "subject":"Service ticket for carting appointment",
+      "folder":"inbox",
+      "date":"2014-10-05T09:04:42.120Z",
+      "body":"<p>        Hey James,    </p>    <p>        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.    </p>            <p>        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. <i class=\"fa fa-smile-o\"></i>     </p>        <br>    <br>    Thanks,<br>     <strong>Sadi Orlaf</strong>    <br>    <br>    <small>        General Manager - Finance Department <br>         231 Ajax Rd, Detroit MI - 48212, USA        <br>        <i class=\"fa fa-phone\"> (313) 647 6471</i>     </small>    <br>        <img src=\"styles/img/logo-blacknwhite.png\" height=\"20\" width=\"auto\" style=\"margin-top:7px; padding-right:9px; border-right:1px dotted #9B9B9B;\">",
+      "attachments":[  
+         {  
+            "name":"rocketlaunch.jpg",
+            "picture":"styles/img/demo/sample.jpg",
+            "size":400000
+         },
+         {  
+            "name":"timelogs.xsl",
+            "size":1300000
+         }
+      ],
+      "labels":[  
+         "SRV/001/01-02"
+      ]
+   },
+   {  
+      "_id":"543109aa71d816200f2a0dce",
+      "contact":{  
+         "picture":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+         "email":"VerniceKlingPhD_Pfannerstill32@hotmail.com",
+         "name":"Special Service Request"
+      },
+      "subject":"Request for special services",
+      "body":"<h3>Business-focused needs-based focus group</h3><p>est voluptate adipisci ut aut et perspiciatis non et\nnostrum voluptatem vel\naccusantium exercitationem odit earum\ndolores explicabo facere excepturi consequatur architecto\naut cum placeat omnis dolorem error odio molestiae\nincidunt consequatur et quod iusto voluptas id</p><p>qui autem officiis impedit mollitia exercitationem laborum id quis\nvelit aut qui eveniet voluptatibus inventore et\ndeleniti odit quae nulla\nunde et exercitationem qui praesentium ad similique\nnobis unde  reiciendis deserunt animi</p><p>veritatis soluta reiciendis aut mollitia porro vero molestias\net aspernatur eveniet nobis numquam cupiditate quo\nmaxime non odio asperiores et sapiente aut commodi amet\nnulla ex autem architecto similique omnis et qui quidem mollitia</p>",
+      "date":"2014-10-05T08:47:42.120Z",
+      "read":false,
+      "folder":"inbox",
+      "attachments":null,
+      "labels":[  
+         "SRV/001/01-03"
+      ]
+   },
+   {  
+      "_id":"543109aa71d816200f2a0e86",
+      "contact":{  
+         "picture":"https://s3.amazonaws.com/uifaces/faces/twitter/amywebbb/128.jpg",
+         "email":"RitaBahringer.Reichert@hotmail.com",
+         "name":"Invoice Amendment"
+      },
+      "subject":"Request for invoice detail amendments",
+      "body":"<h3>Cross-group mission-critical database</h3><p>ratione  omnis consequatur accusamus iusto  alias\nquis eveniet expedita\nvoluptatem est voluptates id  possimus\net asperiores  quasi\nvelit sunt expedita molestiae</p><p>repellendus iste dolores et deserunt in maxime quae voluptatem quis\ncorporis deserunt tenetur quia\nsed inventore labore ut maiores et pariatur rerum aut\nrerum facere incidunt placeat eos vel alias doloremque necessitatibus debitis</p><p>numquam quos dolor non impedit in alias vel\npariatur nostrum autem ut quibusdam voluptas molestias animi alias aut\nvoluptas pariatur  magni sed nemo exercitationem iure rerum sed\nnobis quod aut quo delectus nisi\nquia sapiente harum qui</p><p>officia consequatur ut sit iusto\nqui incidunt cupiditate et quia porro quia\nrem ea assumenda iste atque officia reiciendis ut\ntempora repellat debitis sit dolore consequatur odio ut praesentium qui\nquod quidem similique commodi quae  fugit culpa tenetur \nsequi veritatis deserunt ullam</p>",
+      "date":"2014-10-05T08:42:42.120Z",
+      "read":true,
+      "folder":"inbox",
+      "attachments":[  
+         {  
+            "name":"amet.xlsx",
+            "size":8536000
+         }
+      ],
+      "labels":[  
+         "SRV/001/01-04"
+      ]
+   }
+   
+]

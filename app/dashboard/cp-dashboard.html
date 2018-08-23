@@ -1,0 +1,1035 @@
+﻿<!-- MAIN CONTENT -->
+<div id="content" ng-controller="cpDashboardController">
+
+    <div class="row">
+        <big-breadcrumbs items="['Dashboard', 'My Dashboard']" class="col-xs-12 col-sm-7 col-md-7 col-lg-4"></big-breadcrumbs>
+        <div smart-include="app/layout/partials/sub-header.tpl.html"></div>
+    </div>
+
+
+
+    <!-- widget grid -->
+    <section id="widget-grid" widget-grid>
+
+        <!-- row -->
+        <div class="row">
+
+            <article class="col-sm-12">
+
+                <div data-smart-wizard data-smart-wizard-callback="wizard1CompleteCallback">
+                    <div class="form-bootstrapWizard clearfix">
+                        <ul class="bootstrapWizard">
+                            <li data-smart-wizard-tab="1">
+                                <a href="#">
+                                    <span class="step label-primary">7</span>
+                                    <span class="title">Gate In</span>
+                                </a>
+                            </li>
+                            <li data-smart-wizard-tab="2">
+                                <a href="#">
+                                    <span class="step label-primary">2</span>
+                                    <span class="title">Examination</span>
+                                </a>
+                            </li>
+                            <li data-smart-wizard-tab="3">
+                                <a href="#">
+                                    <span class="step label-primary">3</span>
+                                    <span class="title">Out of charge</span>
+                                </a>
+                            </li>
+                            <li data-smart-wizard-tab="4">
+                                <a href="#">
+                                    <span class="step label-primary">1</span>
+                                    <span class="title">Gate Out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+        <br />
+        <br />
+
+
+        <!-- start row -->
+        <div class="row">
+                
+            <article class="col-md-4">
+
+                <div id="export-widget" jarvis-widget data-widget-color="blueDark"
+                        data-widget-editbutton="false"
+                        data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-upload txt-color-white"></i>
+                        </span>
+
+                        <h2>Exports</h2>
+
+                    </header>
+                    <!-- widget div-->
+                    <div class="no-padding">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="panel-group smart-accordion-default" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">In Bound</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight">10</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:100;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight">24</span>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Carting</td>
+                                                        <td>7</td>
+                                                        <td>12</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Leo</td>
+                                                        <td>3</td>
+                                                        <td>12</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">Out Bound</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight">15</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:normal;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight ">21</span>
+                                                </i>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Stuffing</td>
+                                                        <td>1</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Forwarding</td>
+                                                        <td>2</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end widget content -->
+                    </div>
+                </div>
+
+                <div id="import-widget" jarvis-widget data-widget-color="blueDark"
+                        data-widget-editbutton="false"
+                        data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-download txt-color-white"></i>
+                        </span>
+
+                        <h2>Import</h2>
+
+                    </header>
+
+
+                    <!-- widget div-->
+                    <div class="no-padding">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="panel-group smart-accordion-default" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#importCollapseOne" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">FCL</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight">15</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:100;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight">20</span>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="importCollapseOne" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Port Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate In</td>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Examination</td>
+                                                        <td>2</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>COOC</td>
+                                                        <td>3</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#importCollapseTwo" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">LCL</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight">10</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:100;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight">24</span>
+                                                </i>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="importCollapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Port Gate Out</td>
+                                                        <td>2</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate In</td>
+                                                        <td>1</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Destuff</td>
+                                                        <td>2</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Examination</td>
+                                                        <td>1</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>COOC</td>
+                                                        <td>1</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate Out</td>
+                                                        <td>2</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#importCollapseThree" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">DPD</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight ">15</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:100;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight">20</span>
+                                                </i>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="importCollapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Port Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate In</td>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Examination</td>
+                                                        <td>2</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>COOC</td>
+                                                        <td>3</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#importCollapseFour" class="collapsed">
+                                                <i class="fa fa-lg fa-angle-down pull-right"></i>
+                                                <i class="fa fa-lg fa-angle-up pull-right"></i>
+                                                <i style="font-weight:bold;font-style:normal">DPD</i>
+                                                <br />
+                                                <br />
+                                                <i style="font-weight:100;font-style:normal">
+                                                    20' : <span class="badge bg-color-blueLight">15</span>
+                                                </i>
+                                                &nbsp;&nbsp; | &nbsp;&nbsp;
+                                                <i style="font-weight:100;font-style:normal">
+                                                    40' : <span class="badge bg-color-blueLight">20</span>
+                                                </i>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="importCollapseFour" class="panel-collapse collapse">
+                                        <div class="panel-body" style="padding:10px;">
+
+                                            <table class="table table-bordered table-condensed table-hover">
+                                                <thead>
+                                                    <tr class="info">
+                                                        <th>Pendencies</th>
+                                                        <th>20'</th>
+                                                        <th>40'</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="success">
+                                                        <td>Port Gate Out</td>
+                                                        <td>3</td>
+                                                        <td>8</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate In</td>
+                                                        <td>3</td>
+                                                        <td>8</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Bond</td>
+                                                        <td>3</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Ex Bond</td>
+                                                        <td>1</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr class="success">
+                                                        <td>Gate Out</td>
+                                                        <td>1</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- end widget content -->
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="col-md-4">
+
+                <div id="service-widget" jarvis-widget data-widget-color="blueDark"
+                        data-widget-editbutton="false"
+                        data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-briefcase txt-color-white"></i>
+                        </span>
+
+                        <h2>My Services</h2>
+
+                    </header>
+
+                    <div class="no-padding">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-body status">
+
+                                    <div class="dashboardCardHeader">
+                                        <h5>&nbsp;&nbsp;&nbsp; <b>Welcome, How can we help you?</b></h5>
+                                    </div>
+
+                                    <ul class="comments" style="width:100%;float:left;">
+                                        <li>
+                                            <span class="badge bg-color-orange">1</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Get appointment for carting.
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">2</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Get appointment for Import Delivery
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">3</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Request for special service
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">4</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Request for Profoma Invoice
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">5</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Request for Estimate
+                                            </a>
+                                        </li>
+                                    </ul>
+                                        
+
+                                </div>
+
+                            </div>
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-body status">
+
+                                    <div class="dashboardCardHeader">
+                                        <h5>&nbsp;&nbsp;&nbsp; <b>Amendments</b></h5>
+                                    </div>
+
+                                    <ul class="comments" style="width: 100%; float: left; color: cadetblue;">
+                                        <li>
+                                            <span class="badge bg-color-orange">1</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Request for weight change
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">2</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Request for Importer's name change
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="badge bg-color-orange">3</span>
+                                            <a style="text-decoration: none; color: cadetblue;">
+                                                Change delivery from Factory to Dock
+                                            </a>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="document-widget" jarvis-widget data-widget-color="blueDark"
+                        data-widget-editbutton="false"
+                        data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-copy txt-color-white"></i>
+                        </span>
+
+                        <h2>My Documents</h2>
+
+                    </header>
+
+                    <div class="no-padding">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-body status">
+
+                                    <div class="dashboardCardHeader">
+                                        <h5>
+                                            &nbsp;&nbsp;&nbsp; <b>List of Documents</b>
+                                            <span class="badge bg-color-red">10 Documents</span>
+                                        </h5>
+
+                                    </div>
+
+                                    <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                        <span class="name font-sm">
+                                            <a href-void class="font-sm">
+                                                <i class="fa fa-file-text"></i> &nbsp; List of Invoices
+                                            </a>
+                                            <span class="pull-right font-xs text-muted">
+                                                <i>1 day ago</i>
+                                            </span>
+                                        </span>
+                                    </div>
+
+                                    <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                        <span class="name font-sm">
+                                            <a href-void class="font-sm">
+                                                <i class="fa fa-file-text"></i>&nbsp; List of KYC Documents
+                                            </a>
+                                            <span class="pull-right font-xs text-muted">
+                                                <i>2 days ago</i>
+                                            </span>
+                                        </span>
+                                    </div>
+
+                                    <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                        <span class="name font-sm">
+                                            <a href-void class="font-sm">
+                                                <i class="fa fa-file-text"></i>&nbsp; List of NOC Documents
+                                            </a>
+                                            <span class="pull-right font-xs text-muted">
+                                                <i>3 days ago</i>
+                                            </span>
+                                        </span>
+                                    </div>
+
+                                    <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                        <div class="text-center">
+                                            <a href-void class="btn btn-sm btn-primary">
+                                                Show More
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="col-md-4">
+
+                <div id="notification-widget" jarvis-widget data-widget-color="blueDark"
+                        data-widget-editbutton="false"
+                        data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-bullhorn txt-color-white"></i>
+                        </span>
+
+                        <h2>Notification Center</h2>
+
+                    </header>
+
+                    <div class="no-padding">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="who clearfix" >
+                                <h5>&nbsp;&nbsp;&nbsp; <b>Public Notices</b></h5>
+                            </div>
+
+                            <div class="well well-sm">
+                                <!-- Timeline Content -->
+                                <div class="smart-timeline">
+                                    <ul class="smart-timeline-list">
+                                        <li>
+                                            <div class="smart-timeline-icon">
+                                                <i class="fa fa-file-text"></i>
+                                            </div>
+                                            <div class="smart-timeline-time">
+                                                <small style="font-style:normal;">01 Sept, 2008</small>
+                                                <br />
+                                                <small style="font-style:normal;font-size:8pt;color:lightslategrey">10:00 AM</small>
+                                            </div>
+                                            <div class="smart-timeline-content">
+                                                <p>
+                                                    <a href-void>
+                                                        <strong>PN 63/2008</strong>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Facility of Direct Port Delivery to select importers availing the Direct Port Delivery Facility for ACP Clients
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="smart-timeline-icon">
+                                                <i class="fa fa-file-text"></i>
+                                            </div>
+                                            <div class="smart-timeline-time">
+                                                <small style="font-style:normal;">11 Sept, 2008</small>
+                                                <br />
+                                                <small style="font-style:normal;font-size:8pt;color:lightslategrey">11:23 AM</small>
+                                            </div>
+                                            <div class="smart-timeline-content">
+                                                <p>
+                                                    <a href-void>
+                                                        <strong>PN 66/2008 (amended)</strong>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Facility of Direct Port Delivery to select importers availing the Direct Port Delivery Facility for ACP Clients
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- END Timeline Content -->
+                            </div>
+
+                            <div class="who clearfix">
+                                <h5>&nbsp;&nbsp;&nbsp; <b>Custom Notices</b></h5>
+                            </div>
+
+                            <div class="well well-sm">
+                                <!-- Timeline Content -->
+                                <div class="smart-timeline">
+                                    <ul class="smart-timeline-list">
+                                        <li>
+                                            <div class="smart-timeline-icon">
+                                                <i class="fa fa-file-text"></i>
+                                            </div>
+                                            <div class="smart-timeline-time">
+                                                <small style="font-style:normal;">March 2009</small>
+                                                <br />
+                                                <small style="font-style:normal;font-size:8pt;color:lightslategrey">03:00 PM</small>
+                                            </div>
+                                            <div class="smart-timeline-content">
+                                                <p>
+                                                    <a href-void>
+                                                        <strong>26 / 2009</strong>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Ministry Of Finance (Department of Revenue)
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="smart-timeline-icon">
+                                                <i class="fa fa-file-text"></i>
+                                            </div>
+                                            <div class="smart-timeline-time">
+                                                <small style="font-style:normal;">April 2009</small>
+                                                <br />
+                                                <small style="font-style:normal;font-size:8pt;color:lightslategrey">02:55 PM</small>
+                                            </div>
+                                            <div class="smart-timeline-content">
+                                                <p>
+                                                    <a href-void>
+                                                        <strong>28 / 2009</strong>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Handling of Cargo in Customs Areas Regulations, 2009
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="smart-timeline-icon">
+                                                <i class="fa fa-file-text"></i>
+                                            </div>
+                                            <div class="smart-timeline-time" >
+                                                <small style="font-style:normal;">July 2011</small>
+                                                <br />
+                                                <small style="font-style:normal;font-size:8pt;color:lightslategrey">01:03 PM</small>
+                                            </div>
+                                            <div class="smart-timeline-content">
+                                                <p>
+                                                    <a href-void>
+                                                        <strong>29 / 2011</strong>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Handling of Cargo in Customs Areas Regulations, 2009
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- END Timeline Content -->
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+        <div class="row">
+
+            <article class="col-md-12">
+
+                <div id="mybooks-widget" jarvis-widget data-widget-color="blueDark"
+                     data-widget-editbutton="false"
+                     data-widget-deletebutton="false">
+
+                    <header>
+                        <span class="widget-icon">
+                            <i class="fa fa-list-alt txt-color-white"></i>
+                        </span>
+
+                        <h2>My Books</h2>
+
+                    </header>
+                    <!-- widget div-->
+                    <div class="" style="padding:10px;">
+                        <!-- widget content -->
+                        <div class="widget-body">
+
+                            <div class="row">
+
+                                <article class="col-md-4">
+
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-body status">
+
+                                            <div class="dashboardCardHeader">
+                                                <h5>
+                                                    &nbsp;&nbsp;<b>Outstanding Over 30 days</b>
+                                                    <span class="badge bg-color-red">10 Invoices</span>
+                                                </h5>
+
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <div class="text-center">
+                                                    <a href-void class="btn btn-sm btn-primary">
+                                                        Show More
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </article>
+
+                                <article class="col-md-4">
+
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-body status">
+
+                                            <div class="dashboardCardHeader">
+                                                <h5>
+                                                    &nbsp;&nbsp;<b>Outstanding</b>
+                                                    <span class="badge bg-color-red">20 Invoices</span>
+                                                </h5>
+
+                                            </div>
+
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>INV001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <div class="text-center">
+                                                    <a href-void class="btn btn-sm btn-primary">
+                                                        Show More
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </article>
+
+                                <article class="col-md-4">
+
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-body status">
+
+                                            <div class="dashboardCardHeader">
+                                                <h5>
+                                                    &nbsp;&nbsp;<b>Recent Payments</b>
+                                                    <span class="badge bg-color-red">5 Receipt</span>
+                                                </h5>
+
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>RCT001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>RCT001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <span class="name font-sm">
+                                                    <a href-void class="font-sm">
+                                                        <b>RCT001/2342</b> Export FCL <b><span class="pull-right font-xs text-muted"><i style="font-style:normal;">2 days ago</i></span> </b>
+                                                    </a>
+                                                    <br />
+                                                    <span class="text-muted">INR 250,233 - 12.06.2014</span>
+                                                </span>
+                                            </div>
+
+                                            <div style="padding:10px 10px 10px 15px;border-top:1px solid;border-color:lightgrey;">
+                                                <div class="text-center">
+                                                    <a href-void class="btn btn-sm btn-primary">
+                                                        Show More
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </article>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+
+
+    </section>
+    <!-- end widget grid -->
+
+</div>
+<!-- END MAIN CONTENT -->

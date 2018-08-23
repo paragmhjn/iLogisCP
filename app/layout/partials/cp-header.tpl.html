@@ -1,0 +1,96 @@
+﻿<header id="header">
+    <div id="logo-group" class="hidden-xs">
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo">
+            <img src="styles/img/iLogis CFS Logo.png" alt="iLogis Customer Portal Logo">
+        </span>
+        <!-- END LOGO PLACEHOLDER -->
+        <!--  -->
+    </div>
+    <div class="mobile-hamburger visible-xs">
+        <ul>
+            <li>
+                <div id="searchbar-mobile" class="header-nav-icon visible-xs">
+                    <span>
+                        <a data-ui-sref="app.cp-service-notification" title="Notification" data-action="userNotification">
+                            <i class="fa fa-reorder fa-2x txt-color-darken"></i>
+                        </a>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- pulled right - nav bar -->
+    <div class="pull-right">
+        <div class="icon-bar">
+            <ul>
+                <li>
+                    <div class="input-icon-right pull-left hidden-xs">
+                        <i><img src="styles/img/header-icon/search.svg" alt="search" /></i>
+                        <input class="form-control global-search" placeholder="Find Container No/IGM" type="text">
+                    </div>
+                    <div id="searchbar-mobile" class="header-nav-icon visible-xs">
+                        <span>
+                            <a ui-sref="app.cp-service-notification" title="Notification" data-action="userNotification">
+                                <img src="styles/img/header-icon/search.svg" alt="alert" />
+                            </a>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div id="notification" class="header-nav-icon">
+                        <span>
+                            <a ui-sref="app.cp-service-notification" title="Notification" data-action="userNotification">
+                                <img src="styles/img/header-icon/alert.svg" alt="alert"/>
+                            </a>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <span id="activity" class="activity-dropdown" activities-dropdown-toggle>
+                            <b class="user-name">Parag Mahajan</b>
+                            <i class="fa fa-chevron-down"></i>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--<div smart-include="app/dashboard/activities/activities.html"></div>-->
+        
+        <!--<div class="row">
+            <div class="col-md-1">
+                <div class="input-icon-right pull-left">
+                    <i><img src="styles/img/header-icon/search.svg" alt="search" /></i>
+                    <input class="form-control global-search" placeholder="" type="text">
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div id="notification" class="header-nav-icon">
+                    <span>
+                        <a ui-sref="app.cp-service-notification" title="Notification" data-action="userNotification">
+                            <img src="styles/img/header-icon/alert.svg" alt="alert" />
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div>
+                    <span id="activity" class="activity-dropdown" activities-dropdown-toggle>
+                        <b class="user-name">Parag Mahajan</b>
+                        <i class="fa fa-chevron-down"></i>
+                    </span>
+                </div>
+            </div>
+
+        </div>-->
+
+
+
+    </div>
+    <!-- end pulled right - nav bar -->
+
+</header>

@@ -1,0 +1,415 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Header */
+#header {
+    font-family: 'Rubik', sans-serif;
+    background-color: #fff !important;
+    
+}
+
+#header .mobile-hamburger {
+    display:inline;
+    margin-top:10px;
+    width:auto;
+    overflow: auto;
+    align-content:center;
+}
+
+.mobile-hamburger ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-hamburger ul li {
+    display: inline-block;
+    vertical-align:  middle;
+    margin-left:7px;
+    color:#404040!important;
+}
+
+#header .pull-right {
+    display:inline;
+    margin-top:10px;
+    width:auto;
+}
+
+#header .pull-right .icon-bar {
+    overflow: auto;
+    align-content:center;
+}
+
+.icon-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-bar ul li {
+    display: inline-block;
+    vertical-align:  middle;
+    margin-right:7px;
+    color:#404040!important;
+
+}
+
+.icon-bar ul li:last-child {
+    margin-right:0;
+}
+
+#header .pull-right #activity .user-name {
+    margin-right:4px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.global-search {
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    width: 400px;
+    background-color:#f5f5f5;
+    border: 1px solid #E0E0E0;
+}
+
+.global-search:focus{
+    border: 1px solid #00CECF;
+}
+
+.header-nav-icon {
+    width:28px;
+    height:28px;
+}
+
+
+
+
+/*END HADER CSS*/
+
+/* SUB NAV HEADER */
+
+#sub-header
+{
+    font-family: 'Rubik', sans-serif;
+    /*background-color: #1D3E4E !important;*/
+    background-color: #ffffff !important;
+    border-top: 2px solid #f5f5f5;
+}
+
+#sub-header .nav>ul {
+    display:block;
+    width:100%
+    
+}
+
+#sub-header .nav>ul>li{
+    position:relative;
+    height:auto !important;
+    padding:15px !important;
+    display:inline-block;
+    float:left;
+    /*border-right:1px solid #222;
+    border-left:1px solid #4E4E4E;*/
+    overflow:visible;
+    /*color: #fff;*/
+    font-size: 15px;	
+    font-weight: bold;
+}
+
+#sub-header li.active {
+    border-bottom: 3px solid #43DAD3;
+    color: #43DAD3 !important;
+}
+
+#sub-header li:hover {
+    color: #43DAD3;
+    cursor: pointer;
+}
+
+
+/* END SUB NAV HEADER*/
+
+
+/* Import Tab*/
+
+.import-top-bar {
+    background-color: #1d3e4e;
+    width: 100%;
+    height: 50px;
+    padding: 8px 40px;
+    display: inline-block;
+    vertical-align: central;
+
+}
+.type-toggle-btn {
+    margin-right: 50px;
+}
+
+.import-table-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.status-levels {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #eee;
+    vertical-align:central;
+}
+
+.status-levels>ul {
+    display:block;
+    width:100%;
+    padding:0;
+}
+
+.status-levels > ul > li {
+    width: calc(100%/6);
+    height: 20px;
+    background-color: #404040;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    overflow: visible;
+    vertical-align: central;
+}
+
+
+.status-level-1 {
+    
+}
+/*.status-level-2 {
+    width: calc(100%/6);
+    display:block;
+    background-color: #efefef;
+    border-right: 1px solid #eee;
+}*/
+
+.filter-list {
+    padding-top: 10px;
+}
+
+.filter-list > ul {
+    list-style:none;
+    padding: 0;
+    
+}
+
+.filter-list > ul > li {
+
+}
+
+.checkbox-custom {
+    width:16px;
+    height:16px;
+    background: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+
+.track-card-row {
+
+    overflow-x: auto;
+}
+
+/* End Import Tab*/
+
+
+
+
+
+/* Common Style*/
+.static-label {
+    color: #999999;
+}
+
+.body-content {
+    padding: 10px 10px 10px 10px;
+    background-color: #f5f5f5;
+}
+
+.left-filter-panel {
+    
+}
+
+.left-filter-panel-header {
+    height: 20px;	
+    width: 167px;	
+    color: #B9C3C3;	
+    font-family: "Nunito Sans";	
+    font-size: 16px;	
+    font-weight: 600;	
+    line-height: 10px;
+}
+
+.track-card {
+    width: calc((100% - 98px)/7);
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right:10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.track-card h2 {
+    font-size: 36px;
+    margin: 0 auto;
+    font-weight: 100;
+       
+}
+
+.track-card:last-child {
+    margin-right:0px;
+}
+
+@media (min-width: 992px) {
+    .main-content-panel{
+        padding-left:10px;
+    }
+
+}
+
+@media (max-width: 992px) {
+        
+    .track-card-row {
+        width: 1049px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }   
+}
+
+
+
+
+/* End Common Style*/
+
+
+
+
+
+
+
+
+.dashboardCardHeader {
+    padding: 0px 0px 0px 5px;
+}
+.dashboardCardHeader h5{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.padding-3px{
+    padding: 3px;
+}
+
+.wallet-card
+{
+    background-color:#fff;
+    padding:10px;
+    border-radius: 6px;
+    height: 70px;
+}
+
+.wallet-card:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.wallet-title{
+    padding-left:10px;
+    color:#272727;
+    font-weight:700;
+}
+
+.wallet-icon{
+    color: #808080;
+}
+
+.balance-font{
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+}
+.wallet-card-title {
+    font-size:12px;
+
+}
+
+.service-searchbar{
+    width:100px;
+    margin-left:2px;
+}
+
+.dashboard-card
+{
+    cursor:pointer;
+}
+
+.dashboard-card:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.dashboardCard {
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+	overflow: auto;
+    font-weight: bold;
+}
+
+.dashboardCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fa-icon {
+    /*border-radius: 0px 0px 0px 0px;
+    /*width: 30%;
+    float:left;*/
+
+}
+
+.card-container{
+	/*float:left;
+    border:1px dotted red;
+    width:50%;
+    text-align: center;*/
+    text-align: center;
+    /*border:1px dotted red;*/
+    font-size: 12px;
+    text-transform:uppercase;
+    padding-left: 0px;
+    line-height:20px;
+}
+
+span .card-count {
+    font-weight:bold;
+    font-size: 18px;
+    vertical-align: central;
+}

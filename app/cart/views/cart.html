@@ -1,0 +1,183 @@
+﻿<div id="content">
+
+
+    <!-- row -->
+    <div class="row">
+
+        <!-- col -->
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-4">
+            <h1 class="page-title txt-color-blueDark">
+                <!-- PAGE HEADER -->
+                <i class="fa-fw fa fa-shopping-cart"></i> My Cart
+                <span>
+                </span>
+            </h1>
+        </div>
+        <!-- end col -->
+        <!--<div smart-include="app/layout/partials/sub-header-outstanding.html"></div>-->
+
+
+    </div>
+    <!-- end row -->
+    <!-- row -->
+    <div class="row">
+        <article class="col-sm-12">
+
+            <div jarvis-widget id="live-feeds-widget" data-widget-togglebutton="false" data-widget-editbutton="false"
+                 data-widget-fullscreenbutton="false" data-widget-colorbutton="false" data-widget-deletebutton="false">
+
+                <header>
+                    <!--<span class="widget-icon">
+                        <i class="glyphicon glyphicon-stats txt-color-darken"></i>
+                    </span>
+
+                    <h2>Import Data</h2>-->
+
+                    <ul class="nav nav-tabs pull-left in" id="myTab">
+                        <li class="active">
+                            <a data-toggle="tab" href="#s1">
+                                <i class="fa fa-shopping-cart hidden-mobile hidden-tablet"></i>
+                                <span class="hidden-mobile hidden-tablet">Cart Items</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </header>
+
+                <!-- widget div-->
+
+                <div class="no-padding">
+
+                    <div class="widget-body">
+
+                        <!-- content -->
+                        <div id="myTabContent" class="tab-content">
+
+                            <div class="tab-pane fade active in no-padding-bottom" id="s1">
+
+                                <div class="widget-body-toolbar bg-color-white">
+
+                                    <form class="form-inline" role="form">
+
+                                        <div class="pull-left">
+                                            <a class="btn btn-primary" data-ui-sref="app.add-money">
+                                                <i class="fa fa-money"></i> Make Payment
+                                            </a>
+                                            <a class="btn btn-default">
+                                                Remove From Cart
+                                            </a>
+                                        </div>
+
+                                        <!--<div class="btn-group hidden-phone pull-right">
+                                            <a class="btn dropdown-toggle btn-xs btn-default" data-toggle="dropdown">
+                                                <i class="fa fa-cog"></i> More <span class="caret"> </span>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li>
+                                                    <a href-void><i class="fa fa-file-text-alt"></i> Export to PDF</a>
+                                                </li>
+                                                <li>
+                                                    <a href-void><i class="fa fa-question-sign"></i> Help</a>
+                                                </li>
+                                            </ul>
+                                        </div>-->
+
+                                    </form>
+                                </div>
+                                <div class="padding-10">
+
+                                    <!--<section widget-grid id="widget-grid">-->
+
+                                    <div class="row">
+                                        <article class="col-sm-12">
+
+                                            <div jarvis-widget id="table-hover-states-widget" data-widget-color="darken" data-widget-editbutton="false">
+                                                <header>
+                                                    <span class="widget-icon"> <i class="fa fa-table"></i> </span>
+
+                                                    <h2>All Outstandings</h2>
+                                                </header>
+                                                <div>
+                                                    <div class="widget-body no-padding">
+                                                        <div class="table-responsive">
+
+                                                            <table class="table table-bordered table-striped table-condensed table-hover smart-form has-tickbox">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>
+                                                                            <!--<label class="checkbox">
+                                                                        <input type="checkbox" name="checkbox-inline">
+                                                                        <i></i>
+                                                                    </label>-->
+                                                                        </th>
+                                                                        <th>ID</th>
+                                                                        <th>Invoice Date</th>
+                                                                        <th>Invoice No.</th>
+                                                                        <th>REF No.</th>
+                                                                        <th>REF Type</th>
+                                                                        <th>Amount</th>
+                                                                        <th>Ageing</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label class="checkbox">
+                                                                                <input type="checkbox" name="checkbox-inline">
+                                                                                <i></i>
+                                                                            </label>
+                                                                        </td>
+                                                                        <td>1</td>
+                                                                        <td>1 July 2018</td>
+                                                                        <td>354123</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>25,000</td>
+                                                                        <td>2 Days</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label class="checkbox">
+                                                                                <input type="checkbox" name="checkbox-inline">
+                                                                                <i></i>
+                                                                            </label>
+                                                                        </td>
+                                                                        <td>1</td>
+                                                                        <td>1 July 2018</td>
+                                                                        <td>354123</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>25,000</td>
+                                                                        <td>28 Days</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <!--</section>-->
+
+                                </div>
+                            </div>
+                            <!-- end s1 tab pane -->
+
+                        </div>
+
+                        <!-- end content -->
+                    </div>
+
+                </div>
+                <!-- end widget div -->
+            </div>
+
+
+        </article>
+    </div>
+    <!-- end row -->
+</div>
